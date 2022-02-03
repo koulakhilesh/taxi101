@@ -29,7 +29,7 @@ https://github.com/othneildrew/Best-README-Template
     <a href="https://github.com/koulakhilesh/taxi101"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/koulakhilesh/taxi101/blob/master/report.html">View Demo</a>
+    <a href="https://github.com/koulakhilesh/taxi101/blob/master/notebook_taxi101.ipynb">View Demo</a>
     ·
     <a href="https://github.com/koulakhilesh/taxi101/issues">Report Bug / Request Feature</a>
     ·
@@ -61,7 +61,9 @@ Things that can be done in this project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Please see [report.html](https://github.com/koulakhilesh/taxi101/blob/master/report.html) for demo, [notebook_taxi101.ipynb](https://github.com/koulakhilesh/taxi101/blob/master/notebook_taxi101.ipynb) for Jupiter notebook and [taxi101.py](https://github.com/koulakhilesh/taxi101/blob/master/taxi101.py) for python script file (along with docstring) and [requirements.txt](https://github.com/koulakhilesh/taxi101/blob/master/requirements.txt) for all the required python packages.
+To download data please visit [Taxi Trips](https://data.cityofchicago.org/Transportation/Taxi-Trips-2021/9kgb-ykyt).
+
+Please see [report.html](https://github.com/koulakhilesh/taxi101/blob/master/report.html) for html output of jupyter notebook, [notebook_taxi101.ipynb](https://github.com/koulakhilesh/taxi101/blob/master/notebook_taxi101.ipynb) for Jupiter notebook demo and [taxi101.py](https://github.com/koulakhilesh/taxi101/blob/master/taxi101.py) for python script file (along with docstring) and [requirements.txt](https://github.com/koulakhilesh/taxi101/blob/master/requirements.txt) for all the required python packages.
 
 ## Built With
 
