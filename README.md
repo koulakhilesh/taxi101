@@ -61,7 +61,7 @@ Things that can be done in this project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-See [report.html](https://github.com/koulakhilesh/taxi101/blob/master/report.html) for demo, .inpyb [notebook_taxi101.ipynb](https://github.com/koulakhilesh/taxi101/blob/master/notebook_taxi101.ipynb) for Jupiter notebook and [taxi101.py](https://github.com/koulakhilesh/taxi101/blob/master/taxi101.py) for python script file (along with docstring) and [requirements.txt](https://github.com/koulakhilesh/taxi101/blob/master/requirements.txt) for all the required python packages.
+Please see [report.html](https://github.com/koulakhilesh/taxi101/blob/master/report.html) for demo, [notebook_taxi101.ipynb](https://github.com/koulakhilesh/taxi101/blob/master/notebook_taxi101.ipynb) for Jupiter notebook and [taxi101.py](https://github.com/koulakhilesh/taxi101/blob/master/taxi101.py) for python script file (along with docstring) and [requirements.txt](https://github.com/koulakhilesh/taxi101/blob/master/requirements.txt) for all the required python packages.
 
 ## Built With
 
