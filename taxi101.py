@@ -587,13 +587,13 @@ class Taxi101:
      
         y_pred=round(reg_load.predict(np.array(X).reshape(1,-1)).item(),1)
         
-     
+        y_test_value=self.y_test[X.index].item()
        
         if y_test==True:
-            print('Actual Price = ' + str(self.y_test[X.index]))
+            print('Actual Price = ' + str(y_test_value))
         
         if multiplier !=1.0:
-            print('The Multiplier for the current time is :' +str(multiplier))
+            print('The Multiplier for the current time is : ' +str(multiplier))
      
         return multiplier*y_pred
     
