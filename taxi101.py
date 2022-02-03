@@ -41,15 +41,17 @@ import scipy
 class Taxi101:
     
 
-    def __init__(self,csv_path="data/taxi_chicago_2021.csv"):
+    def __init__(self,csv_path="data/taxi_chicago_2021.csv",shp_path="data/Boundaries_Community_Areas/"):
         """
         Initialization function for the Taxi101 class. 
         
-        
+
         Parameters
         ----------
         csv_path : STR, optional
-            The path to read csv data file.The default is "data/taxi_chicago_2021.csv".
+            The path to read csv data file. The default is "data/taxi_chicago_2021.csv".
+        shp_path : STR, optional
+            The path to read shp data file for map plot. The default is "data/Boundaries_Community_Areas/".
 
         Returns
         -------
@@ -57,8 +59,8 @@ class Taxi101:
 
         """
       
-        
         self.csv_path=csv_path
+        self.shp_file=glob.glob(shp_path+'*.shp')[0]
      
     def readCsv(self,nrows=None):
         """
@@ -463,8 +465,7 @@ class Taxi101:
 
         """
 
-        shp_file=glob.glob('data/Boundaries - Community Areas (current)/*.shp')[0]
-        city_boundary = gpd.read_file(shp_file)
+        city_boundary = gpd.read_file(self.shp_file)
 
 
         long_centroid = area_type+ " Centroid Longitude"
@@ -565,8 +566,7 @@ class Taxi101:
         reg_load = pickle.load(open('data/xgb.pkl', 'rb'))
         
         journey_df=gpd.GeoDataFrame()
-        shp_file=glob.glob('data/Boundaries - Community Areas (current)/*.shp')[0]
-        city_boundary = gpd.read_file(shp_file)
+        city_boundary = gpd.read_file(self.shp_file)
         to_from=['Pickup','Dropoff']
         area=[]
         geo=[]
@@ -751,7 +751,6 @@ class Taxi101:
             
 
 
-
 if __name__ == '__main__':
     print('Happy')
     taxi=Taxi101()
@@ -765,16 +764,16 @@ if __name__ == '__main__':
     # #company share sum
     # _=taxi.pie_chart(pie_type ="sum", groupby_col="Company", sum_col='Fare', title ="Company wise Market Size 2021 - Revenue" )
     
-    #  #company_taxi
+    #   #company_taxi
     # _=taxi.pie_chart(pie_type ="custom", groupby_col="Company", groupby_cols=['Company','Taxi ID'], sum_col='Fare', agg_cmd={"Taxi ID": "nunique"}, title ="Company wise Tax ownership" )
      
     # #taxi to company mapping
     # _=taxi.pie_chart(pie_type ="custom", groupby_col="Taxi ID", agg_cmd={"Company": "nunique"}, title ="Taxi wise Loyality" )
 
-    #    #kmeans sum
+    #     #kmeans sum
     # _=taxi.pie_chart(pie_type ="sum", groupby_col="kmeans", groupby_cols=None, sum_col='Fare', title ="Kmeans Sum" )
               
-    #  #kmeans size
+    #   #kmeans size
     # _=taxi.pie_chart(pie_type ="size", groupby_col="kmeans", groupby_cols=None, sum_col='Fare', title ="Kmeans Sum" ) 
     
     
@@ -791,7 +790,7 @@ if __name__ == '__main__':
     # #payment_type sum
     # _=taxi.pie_chart(pie_type ="sum", groupby_col="Payment Type",sum_col="Fare", title ="Payment Type Sum")
 
-    #  #weekend sum
+    #   #weekend sum
     # _=taxi.pie_chart(pie_type ="sum", groupby_col="start_time_weekday",sum_col="Fare", title ="start_time_weekday")  
      
      
@@ -827,9 +826,6 @@ if __name__ == '__main__':
     # #dropoff weekday
     # taxi.kde_plot(x_col=["Dropoff Community Area"],hue_col='start_time_weekday')
     
-    # #payment Type
-    # taxi.kde_plot(x_col=["Fare"],hue_col='Payment Type')
-    
     # #is_midnight kde
     # taxi.kde_plot(x_col=["Fare"],hue_col='is_midnight')
     
@@ -851,12 +847,10 @@ if __name__ == '__main__':
     # taxi.geoSpatialArea(area_type='Pickup')
     # taxi.geoSpatialArea(area_type='Dropoff')
 
-    # taxi.xgb_price_train(flag='train') 
+    # taxi.xgb_price_train() 
     
     # taxi.plot_corr()
     # taxi.price_is_right(X=taxi.X_test.sample(),multiplier=1.0)
-
-
 
     # _=taxi.market_launch(percent=None,upper_bound='q3',title= 'Market Analysis with upper bound as Q3')
     # print("Current Revenue " + "${:,.2f}".format(_[0]))
