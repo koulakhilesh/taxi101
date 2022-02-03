@@ -87,7 +87,7 @@ Things that can be done in this project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-See [report.html](https://github.com/koulakhilesh/taxi101/report.html) for demo, .inpyb [notebook_taxi101.ipynb](https://github.com/koulakhilesh/taxi101/notebook_taxi101.ipynb) for Jupiter notebook and [taxi101.py](https://github.com/koulakhilesh/taxi101/report.html) code and script file and the respective docstring.
+See [report.html](https://github.com/koulakhilesh/taxi101/report.html) for demo, .inpyb [notebook_taxi101.ipynb](https://github.com/koulakhilesh/taxi101/notebook_taxi101.ipynb) for Jupiter notebook and [taxi101.py](https://github.com/koulakhilesh/taxi101/taxi101.py) code and script file and the respective docstring.
 
 
 
