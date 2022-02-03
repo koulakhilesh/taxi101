@@ -57,11 +57,13 @@ Things that can be done in this project.
 <!--Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
 -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- USAGE EXAMPLES -->
+## Usage
 
+See [report.html](https://github.com/koulakhilesh/taxi101/report.html) for demo, .inpyb [notebook_taxi101.ipynb](https://github.com/koulakhilesh/taxi101/notebook_taxi101.ipynb) for Jupiter notebook and [taxi101.py](https://github.com/koulakhilesh/taxi101/taxi101.py) code and script file and the respective docstring.
 
-### Built With
+## Built With
 
 * [Numpy](https://numpy.org/)
 * [Pandas](https://pandas.pydata.org/)
@@ -79,18 +81,6 @@ Things that can be done in this project.
 * [Jupyter](https://jupyter.org/)
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-See [report.html](https://github.com/koulakhilesh/taxi101/report.html) for demo, .inpyb [notebook_taxi101.ipynb](https://github.com/koulakhilesh/taxi101/notebook_taxi101.ipynb) for Jupiter notebook and [taxi101.py](https://github.com/koulakhilesh/taxi101/taxi101.py) code and script file and the respective docstring.
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -105,16 +95,12 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the GNU General Public License. See `LICENSE` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -127,9 +113,6 @@ Email -  koulakhilesh@gmail.com
 -->
 Project Link: [https://github.com/koulakhilesh/taxi101](https://github.com/koulakhilesh/taxi101)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -137,8 +120,6 @@ Project Link: [https://github.com/koulakhilesh/taxi101](https://github.com/koula
 * [https://data.cityofchicago.org/](https://data.cityofchicago.org/)
 * [https://www.chicago.gov/](https://www.chicago.gov/)
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
