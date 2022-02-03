@@ -31,9 +31,8 @@ https://github.com/othneildrew/Best-README-Template
     <br />
     <a href="https://github.com/koulakhilesh/taxi101/report.html">View Demo</a>
     ·
-    <a href="https://github.com/koulakhilesh/taxi101/issues">Report Bug</a>
+    <a href="https://github.com/koulakhilesh/taxi101/issues">Report Bug / Request Feature</a>
     ·
-    <a href="https://github.com/koulakhilesh/taxi101/issues">Request Feature</a>
   </p>
 </div>
 
@@ -151,7 +150,7 @@ Project Link: [https://github.com/koulakhilesh/taxi101](https://github.com/koula
 [forks-url]: https://github.com/koulakhilesh/taxi101/network/members
 [stars-shield]: https://img.shields.io/github/stars/koulakhilesh/taxi101.svg?style=for-the-badge
 [stars-url]: https://github.comkoulakhilesh/taxi101/stargazers
-[issues-shield]: https://img.shields.io/github/taxi101/koulakhilesh/taxi101.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/koulakhilesh/taxi101.svg?style=for-the-badge
 [issues-url]: https://github.com/koulakhilesh/taxi101/issues
 [license-shield]: https://img.shields.io/github/license/koulakhilesh/taxi101.svg?style=for-the-badge
 [license-url]: https://github.com/koulakhilesh/taxi101/blob/master/LICENSE.txt
