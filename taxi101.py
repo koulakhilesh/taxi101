@@ -599,7 +599,7 @@ class Taxi101:
     
     def linear_prog(self,upper_bound='q3'):
         """
-        Fnction to do linear programming to find optimal revenue
+        Function to do linear programming to find optimal revenue
 
         Parameters
         ----------
@@ -669,7 +669,7 @@ class Taxi101:
      
     def market_launch(self,percent,upper_bound='q3',title= None):
         """
-        Function to analuse market reveince and find the market potentoin with optimal value.
+        Function to analyse market revenue and find the market potential with optimal value.
 
         Parameters
         ----------
@@ -683,7 +683,7 @@ class Taxi101:
         Returns
         -------
         LIST
-            List with optimal market revenye and/or exsiting market reenebce.
+            List with optimal market revenue and/or existing market revenue.
 
         """
 
